@@ -1,0 +1,9 @@
+#define PQCLEAN_RAINBOWIACLASSIC_CLEAN_CRYPTO_SECRETKEYBYTES 92960 
+					92960 / 16 = 5810	:	times of AES call
+
+clocks for generating secret key : 186,584,604
+ 
+			186,584,604 / 5,810 = 32,114.38   clocks per AES call 
+
+clocks for sign : 3,133,428
+
